@@ -1,0 +1,47 @@
+.searchbar {
+    background-color: #3f51b5;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #ffff;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f51b5;
+    transition: background-color 0.3x ease;
+}
+
+.button-hover {
+    background-color: #eee;
+}
+
+.buttonLabel {
+    color: gray;
+    font-size: 14px;
+}
+
+.input {
+    width: 300px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #3f51b5;
+}
